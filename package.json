@@ -1,12 +1,11 @@
 {
   "name": "encurtador-url",
   "version": "1.0.0",
-  "description": "Um encurtador de URL utilizando Node.js e Redis.",
+  "description": "Sistema de encurtamento de URLs com Redis",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
-    "type": "module"
-
   },
   "dependencies": {
     "express": "^4.18.2",
