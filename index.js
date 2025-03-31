@@ -1,5 +1,6 @@
-const express = require('express');
-const redis = require('redis');
+
+import express from 'express';
+import redis from 'redis';
 import { nanoid } from 'nanoid';
 
 
