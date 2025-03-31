@@ -1,6 +1,7 @@
 const express = require('express');
 const redis = require('redis');
-const { nanoid } = require('nanoid');
+import { nanoid } from 'nanoid';
+
 
 const app = express();
 const client = redis.createClient({ url: process.env.REDIS_URL });
